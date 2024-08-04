@@ -1,0 +1,23 @@
+*, *::before, *::after{
+    box-sizing: border-box; 
+}
+*{
+    margin: 0; 
+    padding: 0; 
+}
+html:focus-within{
+    scroll-behavior: smooth; 
+}
+ul[role='list'], ol[role='list']{
+    list-style: none; 
+}
+img, picture, svg, video, canvas{
+    vertical-align: middle; 
+  
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #FAFAFA;
+}
+  
