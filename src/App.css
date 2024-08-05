@@ -27,6 +27,13 @@
   padding: 0.5rem;
 }
 
+@media (max-width: 600px) {
+  .results__container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
 .search__item {
   background-color: #FFF;
   padding: 0.5rem;
